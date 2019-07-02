@@ -1,0 +1,14 @@
+.red {
+  background: crimson !important;
+  color: white !important;
+}
+
+.green {
+  background: green !important;
+  color: white !important;
+}
+
+.green h4,
+.red h4 {
+  color: white !important;
+}

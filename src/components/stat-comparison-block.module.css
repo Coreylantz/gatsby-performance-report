@@ -1,0 +1,25 @@
+.statBlock {
+  background: white;
+  color: black;
+  border: 1px solid black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.statBlock h4 {
+  color: black;
+}
+
+.statContainer { 
+  display: grid; 
+  grid-template-columns: 1fr 1fr 1fr; 
+  grid-template-rows: 0.5fr; 
+  grid-column-gap: 30px;
+  grid-row-gap: 0px; 
+}
+
+.statBefore { grid-area: 1 / 1 / 2 / 2; } 
+.statDiff { grid-area: 1 / 2 / 2 / 3; } 
+.statAfter { grid-area: 1 / 3 / 2 / 4; } 
